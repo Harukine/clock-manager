@@ -6,7 +6,7 @@ import { AuthDto } from './dto/auth.dto';
 import { AuthResponseDto } from './dto/auth.response.dto';
 import { INPUT, OUTPUT, STATUS_CODE_RESPONSE } from './constants/auth.constants';
 import * as moment from 'moment';
-import { User } from '../users/entities/user.entity';
+import { User } from '../user/entities/user.entity';
 
 @Injectable()
 export class AuthService {

@@ -5,7 +5,7 @@ import {
   DB_CONNECTION_TOKEN,
   USER_REPOSITORY_TOKEN,
 } from 'src/common/config/database.tokens.constants';
-// import { User } from '../../users/entities/user.entity';
+// import { User } from '../../user/entities/user.entity';
 
 export const AuthProviders = [
   {
